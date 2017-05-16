@@ -5,5 +5,7 @@
     <select id="selsetOne"  resultType="java.lang.Long">
         SELECT 1
     </select>
-
+    <select id="selsetList"  resultType="java.lang.String">
+        SELECT 'test'
+    </select>
 </mapper>

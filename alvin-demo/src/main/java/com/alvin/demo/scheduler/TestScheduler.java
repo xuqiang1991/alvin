@@ -22,6 +22,7 @@ public class TestScheduler {
     public void statusCheck(){
         logger.info("0 0/1 * * * ?  --------  开始……");
         tsetService.selsetOne();
+        tsetService.selsetList();
         logger.info("0 0/1 * * * ?  --------  结束");
     }
 
