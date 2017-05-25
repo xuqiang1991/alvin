@@ -3,9 +3,9 @@
     <include resource="org/springframework/boot/logging/logback/base.xml" />
 
     <appender name="RollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <File>/logs/alvin-demo.log</File>
+        <File>./logs/alvin-demo.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>/logs/alvin-demo.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <FileNamePattern>./logs/alvin-demo.%d{yyyy-MM-dd}.log</FileNamePattern>
             <maxHistory>3000</maxHistory>
         </rollingPolicy>
         <encoder>
